@@ -1,0 +1,18 @@
+<script>
+     emp={id:101,ename:"srishti",salary:100000};
+     document.write(emp.id +" "+emp.ename+" "+emp.salary);
+     var emp1=new Object();
+     emp1.id=200;
+      emp1.ename="srish";
+      emp1.salary=109090;
+      document.write(emp1.id +" "+emp1.ename+" "+emp1.salary);
+      function emp2(id,ename,salary)
+      {
+        this.id=id;
+        this.ename=ename;
+        this.salary=salary;
+      }
+      e=new emp2(201,"nishant",387713710);
+      document.write(e.id +" "+e.ename+" "+e.salary);
+
+  </script>

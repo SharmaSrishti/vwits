@@ -1,0 +1,38 @@
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+
+
+   if(localStorage)
+   {
+      $(document).ready(function()
+          {
+            $(".save").click(function()
+            {
+              var fname=$("#name").val();
+              localStorage.setItem()
+              alert("Your first name is saved");
+
+            });
+
+              $(".get").click(function()
+              {
+              alert("HI" + localStorage.getItem("name"));
+
+              });
+
+      });
+   }
+   else {
+     alert("Browser is  not supporting web storage");
+   }
+</script>
+<body>
+   <form>
+       <input type="text" name="name">
+       <button type="button" class="save">Save Name</button>
+       <button type="button" class="get">Get Name</button>
+   </form>
+</body>

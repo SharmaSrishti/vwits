@@ -1,0 +1,21 @@
+<script type="text/javascript">
+    function printit()
+    {
+      var name=document.f1.uname.value;
+
+      alert("Welcome "+name);
+    }
+    function printnum()
+    {
+     var a=document.getElementById("a").value;
+      alert(a*a*a);
+    }
+</script>
+<form name="f1" action="index.html" method="post">
+      Enter Name:
+      <input type="text" name="uname"><br><br>
+        <input type="text" name="number" id="a"><br><br>
+
+      <input type="button" onclick="printit()" value="print name">
+      <input type="button" onclick="printnum()" value="print number">
+</form>

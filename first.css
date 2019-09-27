@@ -1,0 +1,18 @@
+body
+  {
+    background-color:lightblue;
+  }
+strong
+{
+  color:red;
+}
+p
+{
+  padding-left:15px;
+  padding-right:15px;
+}
+
+h1
+{
+  cursor: progress;
+}
